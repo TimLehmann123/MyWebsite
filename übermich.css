@@ -1,0 +1,14 @@
+.body2 {
+    justify-content: center;
+    margin-top: 1cm;
+    margin-left: 12cm;
+    margin-right: 12cm;
+
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 120, 158);
+    display: flex;
+    justify-content: center;
+}
