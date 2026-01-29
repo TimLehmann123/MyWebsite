@@ -38,3 +38,6 @@ function zs(){
 function bg() {
     window.location.href="galerie.html"
 }
+function YGU() {
+    window.location.href="S4.html"
+}
