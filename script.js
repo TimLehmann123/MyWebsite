@@ -29,7 +29,7 @@ function MY() {
     window.location.href="S3.html"
 }
 function zr() {
-    window.location.href="S1.html"
+    window.location.href="index.html"
 }
 function zs(){
     window.location.href="zahlenspiel.html"

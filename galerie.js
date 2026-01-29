@@ -38,5 +38,5 @@ function wl() {
     
 
 function zr3() {
-    window.location.href="S1.html"
+    window.location.href="index.html"
 }

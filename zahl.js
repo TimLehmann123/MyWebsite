@@ -24,5 +24,5 @@ function pruefe() {
     }
 }
 function zr2() {
-    window.location.href="S1.html"
+    window.location.href="index.html"
 }
