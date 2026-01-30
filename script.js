@@ -41,3 +41,6 @@ function bg() {
 function YGU() {
     window.location.href="S4.html"
 }
+function YGUcard() {
+    window.location.href="S5.html"
+}
