@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lebenspunktezähler</title>
+        <body>
+            <div>
+                <em><h2 class="h2"  id="LP1">8000</h2></em>
+            </div>
+        </body>
+    </head>
+    <input class="ba" type="number" id="LP2" placeholder="Zahl eingeben..." min="0" required>
+    <button class="" type="submit" onclick="LP()">Abziehen</button>
+    <button  class="txt3" type="submit" onclick="zs1()">Zurücksetzten</button>
+    
+    <h2 class="txt1">Lebenhinzufuegen</h2>
+    <input class="ba" type="number" id="LP3" placeholder="Zahl eingeben..." min="0" required>
+    <button  class="" type="submit" onclick="lh1()">Lebenhinzufuegen</button> <br>
+    <button  class="txt4" type="submit" onclick="zr4()">Zurück</button>
+    <div>
+        <em><h2 class="h21"  id="LP5">8000</h2></em>
+    </div>
+    <input class="ba1"  type="number" id="LP8" placeholder="Zahl eingeben..." min="0" required>
+    <button class=""  type="submit" onclick="LP9()">Abziehen</button>
+    <button class="txt3"  type="submit" onclick="zs2()">Zurücksetzten</button>
+    
+    <h2 class="txt1 ">Lebenhinzufuegen</h2>
+    <input class="ba" type="number" id="LP7" placeholder="Zahl eingeben..." min="0" required>
+    <button class="" type="submit" onclick="lh2()">Lebenhinzufuegen</button>
+    <br>
+
+    
+    <script src="lp.js"></script>
+    <link rel="stylesheet" href="lp.css">
+    
+    <script>
+        //Spieler 1
+        function LP() {
+            LP1.innerText = LP1.innerText - LP2.value;
+            LP2.value = ""
+        }
+        function zs1() {
+            LP1.innerText = 8000;
+        }
+        function lh1() {
+            LP1.innerText = Number(LP1.innerText) + Number(LP3.value);
+            LP3.value = "";
+        }
+        //Spieler 2
+        function LP9() {
+            LP5.innerText = LP5.innerText - LP8.value;
+            LP8.value = ""
+        }
+        function zs2() {
+            LP5.innerText = 8000;
+        }
+        function lh2() {
+            LP5.innerText = Number(LP5.innerText) + Number(LP7.value);
+            LP7.value = "";
+        }
+    </script>
+</html>

@@ -1,0 +1,13 @@
+.body3 {
+    justify-content: center;
+    margin-top: 1cm;
+    margin-left: 7cm;
+    margin-right: 7cm;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 120, 158);
+    display: flex;
+    justify-content: center;
+}
